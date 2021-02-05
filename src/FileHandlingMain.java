@@ -24,6 +24,9 @@ public class FileHandlingMain {
 				else if(input==3) {
 					fileHandle.ReadFile();
 				}
+				else if(input==4) {
+					System.out.println("Thankyou for using FileHandler!");
+				}
 			}
 		}catch(Exception ex) {
            System.err.println("An exception has occurred: "+ex.getMessage());
